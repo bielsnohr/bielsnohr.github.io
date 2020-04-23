@@ -1,21 +1,21 @@
 ---
 layout: post
-title:  "SSI Collab Workshop 2020: Remote Unconference Experience and Notes"
-tags: workshops unconference ssi
+title:  "SSI Collaboration Workshop 2020: Remote Unconference Experience and Notes"
+tags: workshops unconference ssi cw20
 ---
 
 ## Introduction
 
 All of us will doubtless have attended many online meetings over the past month
-as a result of the Covid-19 crisis and lock down. Small group meetings are
-quite manageable with today's technology, but most conferences and events have
-not been able to adjust and have been cancelled. However, there are some
-adventurous organisers at the Software Sustainability Institute (SSI) who
+and a bit as a result of the Covid-19 crisis and lock down. Small group
+meetings are quite manageable with today's technology, but most conferences and
+events have not been able to adjust and have been cancelled. However, there are
+some adventurous organisers at the Software Sustainability Institute (SSI) who
 decided to attempt to run their Collaboration Workshop 2020 (CW20) completely
-remotely. The purpose of the workshop was to bring together an interdisciplinary
-group "to explore best practices and the future of research software", with
-themes of Open Research, Data Privacy, and Software Sustainability. It used an
-*un*conference style, and had about 70 participants.
+remotely. The purpose of the workshop was to bring together an
+interdisciplinary group "to explore best practices and the future of research
+software", with themes of Open Research, Data Privacy, and Software
+Sustainability. It used an *un*conference style, and had about 70 participants.
 
 I was lucky enough to sneak in at the last minute, and I want to share some of
 my experience about what worked for running a remote *un*conference.
@@ -57,7 +57,7 @@ common to scientific research and academia more broadly. Even though it wasn't
 in person, I felt it had many advantages over the traditional conferences that
 I have attended in the past.
 
-My personal favourite were the *knowledge cafes* (i.e. small breakout discussion
+My personal favourite were the *knowledge cafés* (i.e. small breakout discussion
 sessions of around 5 people). Using a Google Spreadsheet, participants were
 able to suggest topics and then put their names against the topic they would
 like to discuss. This facilitated conversation in a manageable group size on a
@@ -97,36 +97,36 @@ person.
 
 There were keynote presentations that all participants attended, the
 one vestige of a traditional conference. My belief is these were important to
-give a sense of unity to the conference, but I will not hide that they were not
-my favourite parts. 
+give a sense of unity to the conference so that participants could have a
+shared experience of at least some parts. 
 
 
 ## Other Highlights and Resources
 
-- Keynote on Open Research (Andrew Stuart)
+- **Keynote on Open Research by Andrew Stuart**
   - slides: <https://drive.google.com/file/d/1sN8xdUYD9flusHxR0SfTFy7EpLaGiDAK/view?usp=sharing>
-  - history and problem of p-hacking in psychology
-    - e.g. Power Posing and Stanford Prision Experiment
-  - HARKing: Hypothesizing After the Results are Known
-  - QRPs: Questionable Research Practices
+  - on the history and problem of p-hacking in psychology
+    - e.g. Power Posing and Stanford Prision Experiment aren't real effects
   - Big concern: PhD student might try to reproduce a "definitive" effect and
     fail because the effect isn't powerful enough
-  - ReproducibiliTea: open science journal clubs for early career researchers
   - Turing Institute has a handbook for reproducible data science
 
-- Breakout session on making legacy software more maintainable
+- **Speed Blog Breakout Session**
   - the Covid-19 crisis has acutely shown the importance of legacy codebases
   - the Imperial College modelling is based on undocumented C code that started
     development 13 years ago; that's 13 years of undocumented features and
     models that have been added! 
   - must be a maintenance nightmare, which impacts the trust we can have in the
     results even if they have been rigourously tested
+  - we focussed on how to make legacy code more maintainable in this context
 
-- Demo Session: FAIR Software
-  - <https://fair-software.nl>: gives five actions that can be taken to make
-    software more FAIR (findable, accessible, interoperable, reproducible)
+- **Demo Session: FAIR Software**
+  - <https://fair-software.nl>: website that gives five actions that can be
+    taken to make software more FAIR (findable, accessible, interoperable,
+    reproducible)
   - my breakout session focussed on software quality checklists
   - it was quite a rabbit hole to get the Core Infrastructure Initiative ones: <https://github.com/coreinfrastructure/best-practices-badge/blob/master/doc/criteria.md>
   - we agreed a better one is probably from EURISE: <https://github.com/eurise-network/technical-reference/blob/v0.1/quality/software-checklist.rst>
 
-- talk by Simon Hettrick on history of RSE is interesting: <https://slides.com/simonhettrick/rse-professionalisation-cw20>
+- **Talk by Simon Hettrick on history of RSE**
+  - <https://slides.com/simonhettrick/rse-professionalisation-cw20>
