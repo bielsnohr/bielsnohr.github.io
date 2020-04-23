@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Welcome, I'm Matt! Most of my adult life I have been a physicist. My PhD work
+focussed on performing fundamental atomic physics calculations and modelling
+for the spectroscopy of fusion plasmas. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Through this rewarding but challenging experience, I made an important
+discovery about myself: the aspect I enjoyed most about my work was the
+crafting of computer programs to solve problems rather than the nature of the
+problems themselves.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+As a result, I have made the career transitions to become a Research Software
+Engineer. Now, I help physicists at the UK Atomic Energy Authority develop
+their software.
 
-
-[jekyll-organization]: https://github.com/jekyll
+![Matt](/assets/images/nucleus_headshot_square.jpg){:width="200px"}

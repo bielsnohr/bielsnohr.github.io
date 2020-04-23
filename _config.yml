@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Physicist Programmer
-# TODO get a more anonymised email to use here, probably protonmail
-#email: matthew.bluteau@gmail.com 
+title: Physicist Turned Programmer
+author: Biels Nohr (Matt)
+email: bielsnohr@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
         Musings of a Research Software Engineer with a PhD in Physics. 
 baseurl: "" # the subpath of your site, e.g. /blog
