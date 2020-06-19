@@ -72,7 +72,9 @@ sessions also had a requirement of producing a small blog post. As a result, the
 discussion had an objective, which prevented too many off-topic tangents. Watch
 the [SSI blog](https://www.software.ac.uk/) for our group's contribution over
 the next few weeks. We tackled the topic of "Improving the Maintainability of
-Legacy Code".
+Legacy Code". *Update 2020-05-25: our group's [blog
+post](https://software.ac.uk/blog/2020-05-25-cw20-speed-blog-maintaining-your-legacy-tips-making-legacy-code-sustainable)
+is now up*.
 
 There was a second knowledge cafe where participants were randomly split into
 groups and given the task of coming up with a collaborative idea for the
