@@ -21,9 +21,7 @@ Page](/assets/images/google-tech-dev-guide_front_page.png)
 There are many different "paths" available with the guide, and I opted for the
 [Foundations of
 Programming](https://techdevguide.withgoogle.com/paths/foundational/),
-following the "recommended sequence" therein. My more detailed notes can be
-found [here](https://git.ccfe.ac.uk/mbluteau/google-tech-dev-guide) (restricted
-access).
+following the "recommended sequence" therein.
 
 ![Google Tech Dev Guide Foundations of
 Programming](/assets/images/google-tech-dev-guide_foundations_description.png)
