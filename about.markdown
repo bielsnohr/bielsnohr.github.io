@@ -17,4 +17,7 @@ As a result, I have made the career transitions to become a Research Software
 Engineer. Now, I help physicists at the UK Atomic Energy Authority develop
 their software.
 
-![Matt](/assets/images/nucleus_headshot_square.jpg){:width="200px"}
+<center>
+<img align="center" src="/assets/images/nucleus_headshot_square.jpg"
+width="200px">
+</center>
