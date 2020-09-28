@@ -72,7 +72,7 @@ forward as opposed to _unittest_ which feels really clunky in comparison.
 Getting some experience, even toy examples, of Test-Driven Development (TDD)
 and how easy it can be makes a convincing case for its use more broadly. In
 fact, I actually found a minor inconsistency in the exercises related to the
-`word_count()` routine, and used the tests to update the function that it
+`word_count()` routine, and used the tests to update the function so that it
 produces results that match `grep`'s use of word boundaries instead of the
 simpler implementation supplied in the course.
 
