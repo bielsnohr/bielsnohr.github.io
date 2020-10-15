@@ -10,7 +10,8 @@ Guide](/2020/06/19/google-tech-dev-guide.html), I have completed
 another course related to software engineering and am posting a review in the
 hopes it will help others direct their own learning journey. This time, it is a
 course by a fellow RSE at the University of Bristol, Matt Williams. It came to
-me by recommendation on the UK RSE Slack.
+me by recommendation on the UK RSE Slack. You can find the course material
+online: <https://milliams.com/courses/software_engineering_best_practices/>
 
 ### Learning objectives
 
