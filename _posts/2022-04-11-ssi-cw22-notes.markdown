@@ -1,0 +1,154 @@
+---
+layout: post
+title:  "Notes from the SSI Collaborations Workshop 2022"
+tags: ssi conference cw22 CollabW22
+---
+
+Below are my lightly touched up notes from the SSI (Software Sustainability Institute) Collaborations Workshop 2022.
+
+[Figshare portal with all of the presentation materials from lightning talks, keynotes, etc](https://ssi-cw.figshare.com/Collaborations_Workshop_2022_CW22)
+
+## Day 1
+
+[Both keynotes available on YouTube](https://www.youtube.com/watch?v=EHyEsZCDR1U)
+
+[Collaborative notes with lots of useful links to other content from the sessions](https://docs.google.com/document/d/1gMPHvGkO-CWdNro_zW9N8KrWj_6xypc1XKOv0MFA7g8/edit#)
+
+### Keynote on Code Review
+
+- Slightly misnamed because it was actually about code verification for publications
+- "Code execution during peer review"
+- Daniel Nust (Researcher, Institute for Geoinformatics, Uni of Munster)
+- Talking about [CODECHECK](https://codecheck.org.uk/) and then [Reproducible Agile](https://reproducible-agile.github.io/) (which is confusingly something for geoinformatics and not the project management methodology)
+- Slides: <https://codecheck.org.uk/slides/cw22-keynote-daniel-nuest.html>
+- The PDF produced for publication do not facilitate reproducibility and are poor representations of what happens leading up to publication and the scientific method (in computational science)
+- To rectify, there have been a number of efforts to check code output that have popped up, basically to check that the code associated with a paper can actually be run and not necessarily whether it produces accurate scientific results
+  - so this is more about reproducibility
+- ReproHack is something associated to this
+- Some interesting questions about how this initiative also relies on the free labour of academics
+  - the answer to this was that at least the free labour wouldn't be supporting a parasitic for-profit publishing company
+
+### Keynote on Ethics
+
+- Pamela Ugwudike
+- IEEE Global Initiative's mission: ensure every stakeholder involved in the design and development of autonomous systems is trained in and able to prioritise ethics and benefit to humanity
+- "new and emergent software should do no harm" -- the Hippocratic Oath for SE and AI/ML
+  - but who decides harm?
+  - there needs to be an approach rooted in the context of where the software will be applied to determine the ethical norms applied in the software
+- Concept of "Digital Capital"
+  - another (newish) form of power in our society
+  - those with digital literacy and software development skills increasingly dictate many social processes
+
+### Lightning Talks
+
+- Rebecca Grant (F1000) - Making an impact: Software Tools Articles at F1000 Research
+  - The software tools article is a new journal article type that focuses on the software tool and not the scientific result
+- How green is an event?
+  - CO2 calculator for individual attending an event: <https://cutt.ly/rg-co2-calculator>
+  - not the quickest calculator when I tried...
+  - github.com/RemotelyGreenOrg
+- Eli Chadwick
+  - FAIR data analysis in muon science
+  - using a tool called [Galaxy](https://galaxyproject.org)
+
+### Discussion Session
+
+- Notes document: <https://docs.google.com/document/d/1Y7oEgNskVznSJDu7PDLaEeHi-cPvTb8C_DzogPYVcWA/edit#>
+- The theme for our group was: "What are the practicalities of introducing researchers to code review?"
+- Some interesting perspectives from a PhD student in a group that is very hostile to anything that focuses on software sustainability
+  - it is seen as wasting time because it doesn't result in publications
+  - as a result, we talked a lot about the current academic culture and it near complete reliance upon publications as a metric for reward and assessment
+  - it was acknowledged that this student simply has to take the personal hit of focussing on the software, and the impact upon relationship with PI and career advancement
+- There is then the time constraints that researchers operate under, and adding code review is yet another item on the list
+  - consequently, there needs to be a strong sell on the benefits, and long term this is something that needs to be written into job descriptions
+  - one group member mentioned that they did have a central RSE team available, but it could take about 6 months to get a code review done!!!
+    - so, have flexible RSE teams that can take these sort of short term projects is important
+- We eventually got around to writing a blog post looking at some of the barriers for introducing code reivew
+  1. Time commitment (above)
+  2. Willingness and culture (above)
+  3. Finding reviewers: it isn't always possible to get someone from your group, and venturing outside your group will run into a host of issues
+  4. Clarifying the goals of the review
+  - there can't be an expectation of doing a complete verification of the code base (this is more for testing)
+- Sidebar great idea from someone in the room: do a project Euler problem each month and then share the solutions to that
+  - a way to diminish code shyness
+  - could be good for CDG???
+
+## Day 2
+
+[Collaborative notes](https://docs.google.com/document/d/1kMad_Yv-mCdYslyhIPZzutTE0pz4opoAoTuQmOExV48/edit#)
+
+### Panel on Ethics
+
+- Case study about where ethics was not applied or considered
+  - in Nairobi, there was a live "experiment" of trying to discover how to get landlords in Nairobi to pay their water bill
+  - it ended up with people living in these buildings having their water cut for 9 months or so
+  - the researchers wanted to see if the tenants would have the bargaining power to force their landlord to pay the water bill, without considering the fact that these are already marginalized people with little power
+- ethics is not just a box-ticking exercise, not 'one and done'
+- it is important that ethics has the power to stop a study!
+- researchers are not passive participants in the research and need to consider ethics from the beginning, not just as some requirement put on them
+- mention of how Turing Way has contracts that include contribution to open source
+- "reflexive" (reflective?) documentation exercises
+  - ways to identify stakeholders and thinking about them
+  - what they didn't get to was how to engage with stakeholders (in particular those who the software and research will impact)
+- RSEs in particular might be brought into a project where the ethics have already been cleared
+  - it is essential to raise any concerns even at this "late" juncture
+- MTurk workers are a form a of Data Enhancement Workers, and there are ethical considerations around the fact that they are not given much credit in the results of ML (nor compensated well by companies that benefit from the ML systems)
+
+### Collaborative Ideas Session
+
+- Our group was in the "Interdisciplinary" category but we ended up being a bunch of Physicists and HPC people 😅️ (with one Biologist!)
+- After a meandering discussion, we eventually landed on the idea of "Code Review Cupid"
+- Problem: Finding code reviewers is difficult. Code reviewing when there are more researchers than RSE is not sustainable, so there needs to be leveraging of researchers reviewing the code of other researchers
+- Solution: create a matchmaking service for researchers looking to review code and have their code reviewed
+  - researchers/coders would create a profile with some basic relevant skill sets collected into a small database
+  - use a matching algorithm to make suggestions to both reviewers and coders
+  - supporting resources on how to perform code review
+
+### Lightning Talks 2
+
+- Stephan Druskat
+  - metadata for software publication
+  - <http://software-metadata.pub/>
+- M-x Research
+  - a support group for emacs users in research software
+  - <https://m-x-research.github.io/>
+- Datalad: basically like better Git-LFS???
+  - sort of, but built on git-annex and is meant to solve the higher-level problem of tracking a data object throughout a workflow
+  - <https://datalad.org>
+- Building bridges in Matrix
+  - I should really join this: <https://joinmatrix.org/guide/>
+
+### Miniworkshop/Demo Session 1
+
+- I helped run a feedback session on the website produced by the Code Review Community about doing code review during research (of which I was a main contributor)
+- Website: <https://researchcodereviewcommunity.github.io/dev-review/>
+- Notes document: <https://docs.google.com/document/d/1bmb-qfRJAPFB4y5d1DTvVYwk3mcVCE1PI971oikMaEw/edit#>
+- Intro to the session and the website: <https://researchcodereviewcommunity.github.io/CW2022-miniworkshop/slides.html#/title-slide>
+- Main portion was going into breakout rooms
+  - first 10 minutes was reading a portion of the website
+    - Finding a Reviewer
+    - Meet and Agree on Objectives
+    - Code Author Communicates Code and Context
+    - Reviewer Reviews Code
+    - Author and Reviewer Meet
+  - then, we had some targeted questions to spark discussion (and gather feedback)
+- Result: some really great ideas for improving the website and our presentation of code review for researchers
+  - e.g. creating a markup of a piece of code with reviewer comments, creating some videos of good and bad tone from a reviewer during a meeting
+
+## Day 3
+
+### Miniworkshop/Demo Session 2
+
+#### Technical Debt Talk
+
+- notes doc: <https://docs.google.com/document/d/1dry3-jF_SD4TANIxu-RYv4CBA74q6leCodyBWfsgEqI/edit>
+- big take home was opening up to refactoring and being more agile
+- something interesting to check out: <https://hyperpolyglot.org>
+
+#### Common Workflow Language Novice Tutorial
+
+- notes: <https://docs.google.com/document/d/11YeLNc40MI1U-wdZCe2uqlFGfinkZgiWUzMioq0cyRY/edit#>
+- basically, a yaml based language for creating data analysis workflows
+- interesting, but there were some execution and timing problems with the demo
+- the input language itself is a bit repetitive
+- are workflow constructions more suited to GUI?
