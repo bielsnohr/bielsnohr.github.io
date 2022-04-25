@@ -174,8 +174,15 @@ I have helped with.
 
 Another important component of the course was a shared Markdown document. This
 is fairly standard practice for Carpentries courses, but it is worth remembering
-that even more advanced learners can still find this tool useful. I am hoping to
-include a markdown template in the course materials at some point in the future.
+that even more advanced learners can still find this tool useful. In fact,
+because there is even more detail and breadth of topics at an intermediate
+level, it could be argued that a document like this is even more important
+because it allows for references and short explainers to be added for which
+there were simply not enough time for in the course itself. Also, the
+shared document was used to outline the the exercises that would be done during
+the course, giving learners an overview through which they could browse and
+consult if they every lost the thread of the course. I am hoping to include a
+markdown template in the course materials at some point in the future.
 
 Finally, a comment about what is to come. Moving to in-person learning will
 require some adaptation. Zoom breakout rooms are actually somewhat difficult to
