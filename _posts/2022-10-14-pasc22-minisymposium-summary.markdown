@@ -31,13 +31,13 @@ RSEs and RSEng?
 
 This is a multi-faceted topic, and the strength of the symposium
 was that we each addressed this topic from quite a different level and scope. At
-the pan-institutional and international scale, there was [Dr. Anna-Lena
-Lamprecht's](https://pasc22.pasc-conference.org/program/schedule/presenter/?uid=433543)
+the pan-institutional and international scale, there was Dr. Anna-Lena
+Lamprecht's
 talk about policy and community in research software. One tier down from this
 was my talk looking at how a central [RSE](https://society-rse.org/about/) team
 can effectively promote software sustainability at an institution. And finally
-at the embedded RSE and individual level, there was [Hannah
-Williams'](https://pasc22.pasc-conference.org/program/schedule/presenter/?uid=864543)
+at the embedded RSE and individual level, there was Hannah
+Williams'
 talk giving an insightful analysis of the trade-offs necessary between
 expediency and sustainability when operating under extreme time constraints. You
 can find and cite the presentations using [our Figshare collection for the
@@ -45,7 +45,7 @@ minisymposium](https://doi.org/10.6084/m9.figshare.c.6139035.v1).
 
 I will now dive a bit deeper into each presentation and give my thoughts and impressions.
 
-## [Good-Enough Practice – Reflections on a Pandemic Response](https://pasc22.pasc-conference.org/program/schedule/presentation/?id=msa252&sess=sess125)
+## [Good-Enough Practice – Reflections on a Pandemic Response](https://pasc22.pasc-conference.org/program/schedule/index.html%3Fpost_type=page&p=10&id=msa252&sess=sess125.html)
 
 Hannah made a great statement at the start of her presentation: "no one sets out
 to do a 'bad' job". If that's so, then why does *un*sustainable research software
@@ -150,7 +150,7 @@ important to support the projects that haven't adopted this practice yet. This
 is a subject close to my heart because it was one of the first "side" projects I
 got assigned when I initially started as an RSE and because I have been an
 active participant in the [Research Code Review
-Community](https://researchcodereviewcommunity.github.io/dev-review/).
+Community](https://dev-review.readthedocs.io/en/latest/).
 
 Although project-funded work takes up the bulk of our time, I place an equal
 importance on the smaller portion of our work that is enabled by some core
