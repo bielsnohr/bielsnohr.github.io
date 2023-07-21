@@ -22,13 +22,13 @@ title: Programming with Plasma
 author: Matt
 email: mattasdata@murena.io
 description: >- # this means to ignore newlines until "baseurl:"
-        Musings of a Research Software Engineer with a PhD in Physics. 
+        Musings of a Research Software Engineer working at a fusion lab
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mattasdata
 github_username:  bielsnohr
 disqus:
-  shortname: mbluteau
+  shortname: bielsnohr
 
 # Build settings
 theme: minima
