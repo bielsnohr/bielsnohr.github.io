@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![UKAEA RSE Team Activities](/assets/images/nucleus_headshot_square.jpg){:.centered width="25%"}
+![Headshot of Matt](/assets/images/nucleus_headshot_square.jpg){:.centered width="25%"}
 
 Welcome, I'm Matt! Most of my adult life I have been a physicist. My PhD work
 focussed on performing fundamental atomic physics calculations and modelling
@@ -33,8 +33,6 @@ background is in physics having obtained a PhD in Atomic and Plasma Physics from
 the University of Strathclyde with external work at the Culham Centre for Fusion
 Energy.
 
-🐘 [@mattasdata@qoto.org](https://qoto.org/@mattasdata)
-
-🐦 [@mattasdata](https://twitter.com/mattasdata)
+🐘 [@mattasdata@fosstodon.org](https://fosstodon.org/@mattasdata)
 
 🐙 [@bielsnohr](https://github.com/bielsnohr)
