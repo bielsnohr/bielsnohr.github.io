@@ -19,19 +19,28 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Programming with Plasma
-author: Matt
+author:
+  name: Matt
 description: >- # this means to ignore newlines until "baseurl:"
         Musings of a Research Software Engineer working at a fusion lab
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  bielsnohr
 disqus:
   shortname: bielsnohr
+minima:
+  social_links:
+    - title: Matt on Mastodon
+      icon: mastodon
+      url: "https://fosstodon.org/@mattasdata"
+    - title: Matt on GitHub
+      icon: github
+      url: "https://github.com/bielsnohr"
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
